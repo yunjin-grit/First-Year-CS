@@ -1,0 +1,39 @@
+//컴퓨터학과 20250492 이윤진
+public class Date { // 소속 변수만 가지고 있는 클래스
+	private int year;
+	private int month;
+	private int day;
+	
+	public String toString() {
+		String rslt ="";
+		rslt += year + "년 ";
+		rslt += month + "월 ";
+		rslt += day +"일";
+		
+		return rslt;
+	}	
+	
+	public void setYear(int y) {
+		year = y;
+	}
+	
+	public int getYear() {
+		return year;
+	}
+	
+	public void setMonth(int m) {
+		month = m;
+	}
+	
+	public int getMonth() {
+		return month;
+	}
+	
+	public void setDay(int d) {
+		day = d;
+	}
+	
+	public int getDay() {
+		return day;
+	}
+}
